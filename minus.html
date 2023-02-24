@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div id="root">
+    <!-- h1-h2 -->
+    <h1>55</h1>
+    <h2>55</h2>
+  </div>
+
+  <script>
+
+    let root = document.getElementById('root');
+    function minusCalc(a, b) {
+      let result = a - b
+      console.log(result);
+      return result;
+
+    }
+
+
+
+
+    h1 = root.children[0].textContent;
+    console.dir(h1);
+    let c = parseInt(h1);
+    console.log(typeof (c));
+
+    h2 = root.children[1].textContent;
+    console.dir(h2);
+    let d = parseInt(h2);
+    console.log(typeof (d));
+
+    minusCalc(c, d);
+
+
+  </script>
+
+
+</body>
+
+</html>
